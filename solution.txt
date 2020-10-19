@@ -1,0 +1,12 @@
+git clone https://github.com/s18663/epg1_git.git
+cd C:\\Users\\miczi\\OneDrive\\Dokumenty\\GitPdClone\\epg1_git 
+git branch hw-s18663    
+git checkout hw-s18663  
+git branch rebase-me
+git checkout rebase-me    
+git merge --ff-only origin/master   
+git checkout hw-s18663  
+git branch merge-me   
+git checkout merge-me
+git merge hw-s18663
+
